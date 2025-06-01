@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="vikeon.css">   
+    <title>Vikeon</title>
+</head>
+<body>
+    <!--Header-->
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="#Hero"><h1><span>VI</span>K<span>EO</span>N</h1></a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger"><div class="bar"></div></div>
+                    <ul>
+                        <li><a href="#Hero"data-after="Home">Home</a></li>
+                        <li><a href="#Laptops"data-after="Services">Laptops</a></li>
+                      
+                        <li><a href="#about"data-after="About">About</a></li>
+                        <li><a href="#contact"data-after="Contacts">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Header-->
+
+<!--Hero Section-->
+ <section id="Hero">
+
+<div class="hero container">
+   <div>
+    <h1> VIKEON<span></span></h1>
+    <h2>Buy Devices and Eletronics<span></span></h1>
+    <h3>at the best prices <span></span></h1>
+        <a href="#Laptops" type="button" class="cta">See More</a>
+  
+   </div>
+</div>
+</section>
+<!-- Hero Section End-->
+
+<!--Service Section-->
+<section id="Laptops">
+
+
+</section>
+<!--End Service Section-->
+<section>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="ass2.css">
+</head>
+<body>
+
+<div class="contain" id="Laptops">
+  <h1 class="text-center mb-4">Laptops For Sale</h1>
+
+  <!-- Tabs -->
+  <ul class="nav nav-tabs mb-4" id="featureTabs" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="tabs-home-tab" data-bs-toggle="tab" data-bs-target="#tabs-home" type="button" role="tab">Devices and Specs</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="tabs-form-tab" data-bs-toggle="tab" data-bs-target="#tabs-form" type="button" role="tab">Complaints</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="tabs-list-tab" data-bs-toggle="tab" data-bs-target="#tabs-list" type="button" role="tab">Frequently Bought</button>
+    </li>
+  </ul>
+
+  <div class="tab-content" id="featureTabsContent">
+    <!-- Accordion & Carousel Tab -->
+    <div class="tab-pane fade show active" id="tabs-home" role="tabpanel">
+      <div class="accordion mb-4" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+             <h2>Recommended Laptops</h2> 
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show">
+            <div class="accordion-body">
+             <h3><p>Hp Victus 14</p>
+            <p>Dell XPS 17</p>
+          <p>Acer Nitro V15</p></h3>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+              <h2>Why these Laptops?</h2>
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <h4><p>Processor speed of Over 4.0Ghz</p>
+<p>Adequate Storage 1TB+</p>
+<p>16gb+ DDR5 RAM installed</p>
+<p>Clear Resolution, Backlit and Sleek</p>              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carousel -->
+      <div id="imageCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="vv.jpg"class="d-block w-100" alt="Slide 1" height="100px" width="100px">
+            <h1>Lenovo Legion 5 pro</h1>
+          </div>
+          <div class="carousel-item">
+            <img src="13.jpg" class="d-block w-100" alt="Slide 2">
+             <h1>Hp Omen 17</h1>
+          </div>
+          <div class="carousel-item">
+            <img src="11.jpg" class="d-block w-100" alt="Slide 3">
+                <h1>Asus TUF 15</h1>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Form Tab -->
+    <div class="tab-pane fade" id="tabs-form" role="tabpanel">
+      <form class="p-3 bg-light rounded shadow-sm">
+        <div class="mb-3">
+          <label for="userName" class="form-label">Name <i class="bi bi-info-circle" data-bs-toggle="tooltip" title="Enter your full name"></i></label>
+          <input type="text" class="form-control" id="userName" placeholder="Matthan Kolajo">
+        </div>
+        <div class="mb-3">
+          <label for="userEmail" class="form-label">Email <i class="bi bi-info-circle" data-bs-toggle="tooltip" title="We'll never share your email"></i></label>
+          <input type="email" class="form-control" id="userEmail" placeholder="email@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="userMessage" class="form-label">Message</label>
+          <textarea class="form-control" id="userMessage" rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" id="llk">Send</button>
+      </form>
+    </div>
+
+    <!-- List Tab -->
+    <div class="tab-pane fade" id="tabs-list" role="tabpanel">
+      <ul class="list-group mt-4">
+        <li class="list-group-item"><h3>Lenovo Legion 9 Yoga</h3></li>
+        <li class="list-group-item"><h3>Hp Victus 15</h3></li>
+        <li class="list-group-item"><h3>Dell XPS 15</h3></li>
+        <li class="list-group-item"><h3>Alienware M15</h3></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Modal Trigger -->
+  <div class="text-center mt-5">
+    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#infoModal">
+Cart
+    </button>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="infoModalLabel">Items Added To Cart</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          No items have been added to cart
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap + Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="of.js"></script>
+</body>
+</html>
+
+</section>
+<!--Project Section-->
+<section id="projects">
+   
+</section>
+<!--End Project Section-->
+
+<!--About Section-->
+<section id="about">
+    <div class="about container">
+        <div class="col-left"><div class="about-img">
+<img src="112.jpg" alt="img">
+        </div>
+    </div>
+        <div class="col-right">
+            <h1 class="section-title">About <span>Vikeon</span></h1>
+            <h2>VISION</h2>
+            <p>Best Ecommerce Website for The Purchase of Gadgets and Eletronics 
+</p>
+<a href="#" class="cta">READ MORE</a>
+        </div>
+    </div>
+</section>
+<!--End About Section-->
+
+<!--Contact Section-->
+<section id="contact">
+    <div class="contact container">
+    <div><h1 class="section-title">Contact <span>uS</span></h1></div>
+    <div class="contact-items">
+    <div class="contact-item">
+        <div class="icon"><img width="100" height="100" src="https://img.icons8.com/bubbles/100/phone--v1.png" alt="phone--v1"/></div>
+        <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+234 123 456 789</h2>
+             <h2>+234 123 456 789</h2>
+        </div>
+    </div>
+       <div class="contact-item">
+        <div class="icon"><img width="100" height="100" src="https://img.icons8.com/bubbles/100/new-post.png" alt="new-post"/></div>
+        <div class="contact-info">
+            <h1>Email</h1>
+            <h2>VIKEON@gmail.com</h2>
+             <h2>vIKEESON@gmail.com</h2>
+        </div>
+    </div>
+       <div class="contact-item">
+        <div class="icon"><img width="100" height="100" src="https://img.icons8.com/bubbles/100/order-delivered.png" alt="order-delivered"/></div>
+        <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Federal Lowcost Housing Estate</h2>
+             <h2>J Street</h2>
+        </div>
+    </div>
+    </div>
+    </div>
+</section>
+<!--End Contact Section-->
+
+<!--Footer Section-->
+<section id="footer">
+    <div class="footer container">
+        <div class="brand"><h1><span>I</span>nfo <span></span></h1></div>
+        <h2>Technology at your doorsteps</h2>
+        <div class="social-icon">
+            <div class="social-item">
+                <a href="#"><img width="100" height="100" src="https://img.icons8.com/bubbles/100/facebook-new.png" alt="facebook-new"/></a>
+            </div>
+             <div class="social-item">
+                <a href="#"><img width="100" height="100" src="https://img.icons8.com/clouds/100/instagram-new--v3.png" alt="instagram-new--v3"/></a>
+            </div>
+             <div class="social-item">
+                <a href="#"><img width="48" height="48" src="https://img.icons8.com/color/48/twitterx--v1.png" alt="twitterx--v1"/></a>
+            </div>
+             <div class="social-item">
+                <a href="#"><img width="100" height="100" src="https://img.icons8.com/clouds/100/linkedin.png" alt="linkedin"/></a>
+            </div>
+        </div>
+        <p>Copyright© 2025 VIKEON  . All Rights Reserved</p>
+    </div>
+</section>
+<!--End Footer Section-->
+<script src="app.js"></script>
+</body> 
+</html>
